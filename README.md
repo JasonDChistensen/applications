@@ -20,4 +20,7 @@ sudo apt-get install autoconf which sed make binutils build-essential diffutils 
 ## buildroot Optional packages
 sudo apt-get install autoconf python ncurses5 qt5 glib2 gtk2 glade2
 sudo apt-get install autoconf bzr curl cvs git mercurial openssh-client subversion
-sudo apt-get install autoconf default-jdk default-jre asciidoc w3m python3 dblatex graphviz python3-matplotlib python3-aiohttp 
+sudo apt-get install autoconf default-jdk default-jre asciidoc w3m python3 dblatex graphviz python3-matplotlib python3-aiohttp
+
+# Other
+sudo apt install tmux
