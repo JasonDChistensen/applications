@@ -47,10 +47,17 @@ $ sudo usermod -aG docker <username>
 $ sudo systemctl restart docker
 
 To see a list of Docker images:
+```
 $ docker images
+```
 
-To build a image
+To build a image:
+
+-t, --tag stringArray               Image identifier (format: "[registry/]repository[:tag]")
+
+```
 $ docker build -t my-image .
+```
 
 To run the image
 ```
