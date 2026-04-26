@@ -1,6 +1,9 @@
 # applications
 Applications to install
 
+# Update the package repositories
+sudo apt update
+
 # IDE's
 visual studio code
 
@@ -13,6 +16,10 @@ sudo apt-get install autoconf automake bison bzip2 cmake flex g++ gawk gcc gette
 sudo apt-get install arp-scan
 
 sudo apt-get install autoconf e2fsprogs genext2fs mtd-utils squashfs-tools util-linux
+
+sudo apt install python3-venv
+
+sudo apt install docker.io
 
 # Buildroot
 https://buildroot.org/downloads/manual/manual.html#requirement
