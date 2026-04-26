@@ -53,11 +53,16 @@ To build a image
 $ docker build -t my-image .
 
 To run the image
-  docker run: Tells Docker to create and start a new container from a specific image.
-  -i (interactive): Keeps the "Standard Input" (STDIN) open even if not attached. This allows you to send commands to the container.
-  -t (tty): Allocates a virtual terminal (pseudo-TTY) inside the container. This makes the interface look and behave like a real terminal session (e.g., providing a command prompt like root@containerID:/#).
-  --mount type=bind,source=/host/path,target=/container/path,readonly
-  -w Setting the Working Directory: If you want the container to start inside the directory you just mounted, use the -w or --workdir flag
+```
+docker run: Tells Docker to create and start a new container from a specific image.
+-i (interactive): Keeps the "Standard Input" (STDIN) open even if not attached. This allows you to
+   send commands to the container.
+-t (tty): Allocates a virtual terminal (pseudo-TTY) inside the container. This makes the interface
+   look and behave like a real terminal session (e.g., providing a command prompt like root@containerID:/#).
+--mount type=bind,source=/host/path,target=/container/path,readonly
+-w Setting the Working Directory: If you want the container to start inside the directory you just
+   mounted, use the -w or --workdir flag
+```
   
 $ docker run -it --mount type=bind,source=/home/jason,target=/home/jason -w /home/jason my-image
 
