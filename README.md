@@ -19,6 +19,8 @@ sudo apt-get install autoconf e2fsprogs genext2fs mtd-utils squashfs-tools util-
 
 sudo apt install python3-venv
 
+sudo apt install smem
+
 # Buildroot
 https://buildroot.org/downloads/manual/manual.html#requirement
 
