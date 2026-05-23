@@ -22,6 +22,7 @@ sudo apt install python3-venv
 sudo apt install smem
 
 sudo apt  install valgrind
+sudo apt  install kcachegrind
 sudo apt  install htop
 
 # Buildroot
