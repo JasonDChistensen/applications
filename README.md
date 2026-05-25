@@ -19,6 +19,7 @@ sudo apt install nvidia-cuda-toolkit
 - sudo apt  install valgrind
 - sudo apt  install kcachegrind
 - sudo apt  install htop
+- sudo apt install rt-tests
 
 # Buildroot
 https://buildroot.org/downloads/manual/manual.html#requirement
